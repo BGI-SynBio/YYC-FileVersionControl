@@ -1,0 +1,4 @@
+    (updated,) = dvc.update(stage.path, to_remote=True)
+
+    assert stage.deps[0].hash_info != updated.deps[0].hash_info
+    assert stage.outs[0].hash_info != updated.outs[0].hash_info

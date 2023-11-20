@@ -1,0 +1,1 @@
+            raise DvcException(f"cannot update {out!r}: not a data source")

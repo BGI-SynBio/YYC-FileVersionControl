@@ -1,0 +1,1 @@
+    stage = dvc.update(stage.path, to_remote=True)

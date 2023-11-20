@@ -1,0 +1,6 @@
+PIPELINE_TRACKED_UPDATE_FMT = (
+    "cannot update {out!r}: overlaps with an output of {stage} in '{path}'.\n"
+    "Run the pipeline or use 'dvc commit' to force update it."
+)
+
+

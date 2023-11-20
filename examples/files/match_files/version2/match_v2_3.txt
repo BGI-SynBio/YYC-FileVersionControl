@@ -1,0 +1,3 @@
+def test_try_adding_pipeline_tracked_output(tmp_dir, dvc, run_copy):
+    tmp_dir.dvc_gen("foo", "foo")
+    run_copy("foo", "bar", name="copy-foo-bar")

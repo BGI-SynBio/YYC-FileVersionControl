@@ -1,0 +1,1 @@
+    with pytest.raises(DvcException, match="cannot update 'bar': not a data source"):

@@ -1,0 +1,5 @@
+def test_update_import_url_to_remote(tmp_dir, dvc, workspace, local_remote):
+    workspace.gen("foo", "foo")
+    stage = dvc.imp_url("remote://workspace/foo", to_remote=True)
+
+    workspace.gen("foo", "bar")

@@ -1,0 +1,6 @@
+                    "foo_with_different_name": "foo",
+                },
+            }
+        }
+    )
+

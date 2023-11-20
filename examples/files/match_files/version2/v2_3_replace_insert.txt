@@ -1,0 +1,5 @@
+    msg = (
+        "cannot update 'bar': overlaps with an output of stage: 'copy-foo-bar' in "
+        "'dvc.yaml'.\nRun the pipeline or use 'dvc commit' to force update it."
+    )
+    with pytest.raises(DvcException, match=msg):

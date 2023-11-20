@@ -1,0 +1,5 @@
+if TYPE_CHECKING:
+    from dvc.repo import Repo
+    from dvc.stage import Stage
+
+

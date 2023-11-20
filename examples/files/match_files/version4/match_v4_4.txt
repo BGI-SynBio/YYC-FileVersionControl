@@ -1,0 +1,1 @@
+    local_workspace.gen({"data": {"foo": "baz", "bar": {"baz": "foo"}, "same": "same"}})

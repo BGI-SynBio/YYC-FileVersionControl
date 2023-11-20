@@ -1,0 +1,4 @@
+            msg = PIPELINE_TRACKED_UPDATE_FMT.format(
+                out=out, stage=stage, path=stage.relpath
+            )
+            raise DvcException(msg)
